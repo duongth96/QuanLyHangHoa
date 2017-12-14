@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.duongth.qunlhngha.MainActivity"
+    android:orientation="vertical"
+    android:padding="20px">
+
+    <Button
+        android:id="@+id/btnCreateOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạo Đơn Hàng Mới"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:paddingTop="10pt"
+        android:paddingBottom="10pt"/>
+    <Button
+        android:id="@+id/btnShowProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem toàn bộ sản phẩm"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:paddingTop="10pt"
+        android:paddingBottom="10pt"/>
+    <Button
+        android:id="@+id/btnBuyingOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đơn nhập hàng"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:paddingTop="10pt"
+        android:paddingBottom="10pt"/>
+
+</LinearLayout>
